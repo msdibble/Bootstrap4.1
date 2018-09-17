@@ -1,0 +1,21 @@
+/* style.css */
+
+html, body {
+    height: 100%;
+}
+
+#cover {
+    background: url("../../bootstrap4/img/stars.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+    align-content: center;
+}
