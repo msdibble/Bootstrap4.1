@@ -4,6 +4,10 @@ html, body {
     height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 #cover {
     background: url("../../bootstrap4/img/stars.jpg") center center no-repeat;
     background-size: cover;
@@ -18,4 +22,26 @@ html, body {
 #cover-caption {
     width: 100%;
     align-content: center;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url("../../bootstrap4/img/girlincar.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem;
 }
